@@ -1,0 +1,71 @@
+
+            body{
+   
+ 
+  background-image: url(image/new2.jpg);
+      background-repeat: no-repeat;
+            
+    position: relative;        
+         
+    margin-left: auto;      
+    margin-right: auto;  
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center ;
+    height:100%;
+    font-family: comic sans ms;
+    color: white;
+    
+    
+    
+}
+h1{
+    color: yellow;
+    font-stretch: expanded;
+    font-size: 50px;
+    
+    
+}
+.submit{ 
+    alignment-adjust: auto;
+    color: chartreuse;
+    font-size: 35px;
+     background: transparent;
+     border:none;
+     margin-left: 500px;
+  margin-bottom: 75px;
+}
+.submit:hover{
+    color:black ;
+    background: white;
+}
+.submit1{
+    font-size: 20px;
+    background: transparent;
+    color: activeborder;
+    margin-left: 200px;
+    
+}
+.submit1:hover{
+    color: black;
+    background: beige;
+    
+}
+.trans{
+     border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: white;
+    
+}
+form{
+    border:none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+    
+    

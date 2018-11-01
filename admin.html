@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+    
+        <html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <style>
+             body{
+   
+ 
+  background-image: url(image/new2.jpg);
+      background-repeat: no-repeat;
+            
+    position: relative;        
+         
+    margin-left: auto;      
+    margin-right: auto;  
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center ;
+    height:100%;
+    font-family: comic sans ms;
+    color: white;
+             }
+     form{
+                 margin-left: 700px;
+                 font-size: 30px;
+                 border: transparent;
+         }
+         input[type=text],input[type=password]{
+             border: transparent;
+             text-transform:uppercase;
+             background: transparent;
+             width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+             
+         }
+         ::placeholder{
+             font-size:18px;
+             color: aqua;
+         }
+         h1{
+              color: yellow;
+    font-stretch: expanded;
+    font-size: 50px;   }
+         .submit{
+             margin-right: -50px;
+             background-color: gold;
+             font-size: 20px;
+         
+         }
+         .submit:hover{
+              color:black ;
+    background: white;
+         }
+            
+        </style> 
+        <title>Admin login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body><center>
+          <h1>Vehicle Identification System</h1> 
+        <br>
+        
+         <form action="adminlogin.jsp" method="GET">
+         <table><tr><th><p>Username:</p></th><td><input type="text" placeholder="Enter username" name="name" required ></td></tr>
+            <tr><th><p> Password:</p></th><td>  <input type="password" placeholder="Enter password"  name="pswd" required></td></tr></table>
+             <input class="submit" type="submit" value="submit" >
+
+            </form>
+<br><br>
+    </center></body>
+</html>
